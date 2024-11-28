@@ -52,7 +52,7 @@ def chat():
 def ask(question=''):
         embeddings = OpenAIEmbeddings(openai_api_type=os.environ.get("OPENAI_API_KEY"))
         vectorstore = PineconeVectorStore(
-            index_name=os.environ["INDEX_NAME"], embedding=embeddings
+            index_name=os.environ["INDEX_NAME_PRODUCTS"], embedding=embeddings
         )
 
         chat = ChatOpenAI(verbose=True, temperature=0, model_name="gpt-3.5-turbo")
