@@ -7,4 +7,5 @@ langchain-community
 python-dotenv
 pypdf
 flask
+flask_cors
 requests

@@ -1,0 +1,4 @@
+#whatsapp-client files to ignore
+.wwebjs_auth
+.wwebjs_cache
+/node_modules
